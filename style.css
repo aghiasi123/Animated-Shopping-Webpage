@@ -1,0 +1,165 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+}
+
+button{
+    font-family:'poppins', sans-serif;
+}
+header{
+    display: flex;
+    margin:auto;
+    width: 90%;
+    font-weight: 100;
+    font-size: 15px;
+    padding-top: 2rem;
+}
+.logo-container{
+    color:#5f5f79;
+}
+.logo-container img{
+    height: 1.5rem;
+}
+
+.logo-container, .logo, .cart{
+    display:flex;
+    flex:1;
+}
+nav{
+    flex:2;
+}
+.cart{
+    justify-content: flex-end;
+}
+
+.cart img{
+    height: 2rem;
+}
+
+.nav-links{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+}
+.nav-link{
+    color:#5f5f79;
+    font-size: 18px;
+    text-decoration: none;
+}
+.intro-text h1{
+    font-size:30px;
+}
+.intro-text p{
+    font-size:25px;
+    background: linear-gradient(to right, #494964, #6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+.intro{
+    margin:350px 0px 0px 90px;
+
+}
+
+.buttons{
+    margin:30px 0px 0px 0px;
+    
+}
+
+.first-button{
+    width:150px;
+    cursor: pointer;
+    border: 2px solid #c36cbb;
+    color:#c36cbb;
+    background: transparent;
+    height:3rem;
+    border-radius: 2rem;
+}
+
+.Second-button{
+    width:150px;
+    border: 2px solid #c36cbb;
+    color:white ;
+    background:lightpink;
+    height:3rem;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+.cover img{
+    position: absolute;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    bottom:20%;
+    left:55%;
+   
+    
+}
+
+.intro-text{
+    background: linear-gradient(to right, #494964, #6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.big-circle{
+    position: absolute;
+    bottom:50%;
+    left:75%;
+    z-index: -1;
+    height: 55%;
+    opacity: 0.4;   
+}
+
+.medium-circle{
+    position: absolute;
+    bottom:30%;
+    left:54%;
+    z-index: -1;
+    opacity: 0.5;  
+    top:30%; 
+}
+.small-circle{
+    position: absolute;
+    left:35%;
+    height:35%;
+    margin:3rem;
+
+}
+
+.arrows{
+    width:15%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom:10%;
+    right:23%;
+
+}
+.cover img{
+    filter: drop-shadow(0px 5px 2px black);
+    animation: drop 1.5s ease;
+}
+@keyframes drop {
+    0%{
+        opacity:0;
+        transform: translateY(-80px);
+    }
+
+    100%{
+        opacity:1;
+        transform: translateY(0px);
+    }    
+}
+
+
+
+
+
+
